@@ -1,0 +1,29 @@
+# Q1.
+kms = int(input("Enter value in km "))
+miles = kms * 0.621
+print("{}km = {}miles".format(kms,miles))
+
+# Q2.
+celsius = int(input("Enter value in celsius "))
+fahrenheit = (celsius * 1.8) + 32
+print("{} celsius = {} fahrenheit".format(celsius, fahrenheit))
+
+# Q3.
+import calendar
+year = int(input("Enter specific year "))
+month = int(input("Enter specific month "))
+print(calendar.month(year,month))
+
+#Q4. 
+a = int(input("The value of a is "))
+b = float(input("The value of b is "))
+c = a*a + 2*b + 6
+print("the value of quadratic equation is {}".format(c))
+
+# Q5.
+x = int(input("The value of x is "))
+y = int(input("The value of y is "))
+x , y = y , x
+print("After swapping value of x is {} and value of y is {}".format(x,y))
+
+
